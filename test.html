@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Details Product</title>
+
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
+        integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous" />
+    <!-- mycss -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Scrollbar Custom CSS -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css" />
+    <!-- slick css -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <!-- xzoom -->
+    <link rel="stylesheet" href="xzoom/xzoom.css" />
+
+    <!-- owl carousel -->
+    <link rel="stylesheet" href="owl/dist/assets/owl.carousel.css" />
+    <link rel="stylesheet" href="owl/dist/assets/owl.theme.default.css" />
+
+    <!-- Font Awesome JS -->
+    <script src="https://kit.fontawesome.com/9d80722182.js" crossorigin="anonymous"></script>
+
+    <script src="./scripts/jquery.min.js"></script>
+    <script type="text/javascript" src="./scripts/jquery.breakpoints.min.js"></script>
+</head>
+
+<body>
+    <div class="wrapper details-product">
+        <!-- Right Sidebar -->
+        <nav id="sidebar">
+            <div id="dismiss">
+                <i class="fas fa-arrow-left"></i>
+            </div>
+
+            <div class="sidebar-header">
+                <div class="account">
+                    <i class="fas fa-user-circle fa-2x"></i>
+                    <p class="account-name">Hello, Jamal</p>
+                    <a href="login.html">Sign-in</a>
+                </div>
+            </div>
+            <div class="sidebar-content">
+                <ul class="list-unstyled components">
+                    <h4 class="categories-title">Shop by categories</h4>
+                    <li>
+                        <a href="product.html" class="categories-item">Snack</a>
+                    </li>
+                    <li>
+                        <a href="product.htmlfandbSubMenu" data-toggle="collapse" aria-expanded="false"
+                            class="categories-item">Food
+                            and Beverages</a>
+                        <ul class="collapse list-unstyled sub-menu" id="fandbSubMenu">
+                            <li>
+                                <a href="product.html">Meat</a>
+                            </li>
+                            <li>
+                                <a href="product.html">Rice</a>
+                            </li>
+                            <li>
+                                <a href="product.html">Fruits</a>
+                            </li>
+                            <li>
+                                <a href="product.html">Vegetables</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="product.html" class="categories-item">Women Clothes</a>
+                    </li>
+                    <li>
+                        <a href="product.html" class="categories-item">Men Clothes</a>
+                    </li>
+                    <li>
+                        <a href="product.html" class="categories-item">Video Games</a>
+                    </li>
+                    <li>
+                        <a href="product.html" class="categories-item">Furniture</a>
+                    </li>
+                    <h4 class="categories-title">Help and Settings</h4>
+                    <li>
+                        <a href="product.html" class="categories-item">Help</a>
+                    </li>
+                    <li>
+                        <a href="product.html" class="categories-item">FAQ</a>
+                    </li>
+                    <li>
+                        <a href="product.html" class="categories-item">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- Left Sidebar -->
+        <nav id="left-sidebar">
+            <div id="dismiss">
+                <i class="fas fa-arrow-left"></i>
+            </div>
+
+            <div class="sidebar-header">
+                <div class="account">
+                    <i class="fas fa-user-circle fa-2x"></i>
+                    <p class="account-name">Hello, Jamal</p>
+                    <a href="login.html">Sign-in</a>
+                </div>
+            </div>
+            <div class="sidebar-content">
+                <ul class="list-unstyled components">
+                    <h4 class="categories-title">Shop by categories</h4>
+                    <li>
+                        <a href="product.html" class="categories-item">Snack</a>
+                    </li>
+                    <li>
+                        <a href="product.html" class="categories-item">Women Clothes</a>
+                    </li>
+                    <li>
+                        <a href="product.html" class="categories-item">Men Clothes</a>
+                    </li>
+                    <li>
+                        <a href="product.html" class="categories-item">Video Games</a>
+                    </li>
+                    <li>
+                        <a href="product.html" class="categories-item">Furniture</a>
+                    </li>
+                    <h4 class="categories-title">Help and Settings</h4>
+                    <li>
+                        <a href="product.html" class="categories-item">Help</a>
+                    </li>
+                    <li>
+                        <a href="product.html" class="categories-item">FAQ</a>
+                    </li>
+                    <li>
+                        <a href="product.html" class="categories-item">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- Page Content  -->
+        <div id="header" class="container-fluid">
+            <nav class="navbar main-navbar fixed-top main-navbar navbar-expand navbar-light bg-light">
+                <button type="button" id="sidebarCollapse" class="btn btn-info">
+                    <i class="fas fa-align-justify"></i>
+                </button>
+                <div class="ml-2">
+                    <a href="index.html" style="color: black;"><i class="fa fa-gg-circle d-inline-block align-top"
+                            style="font-size: 36px"></i></a>
+                </div>
+                <div class="company-name ml-2 d-none d-md-block">
+                    <a href="index.html" style="color: black;">
+                        <h5>Gelael</h5>
+                    </a>
+                </div>
+                <div class="nav-search m-auto">
+                    <form action="#" method="post">
+                        <div class="input-group ml-3" style="width: 100%">
+                            <input type="text" class="form-control" />
+                            <span class="input-group-append bg-white border-left-0">
+                                <span class="input-group-text bg-transparent">
+                                    <i class="fas fa-search"></i>
+                                </span>
+                            </span>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="acc-nav mx-3 d-none d-sm-block">
+                    <a href="#" style="color: black">
+                        <i class="fas fa-user-circle fa-2x icon-user"></i><span
+                            class="icon-text ml-2">Account</span></a>
+                </div>
+                <div class="cart-nav mx-3">
+                    <a href="cart.html" style="color: black">
+                        <i class="fas fa-shopping-cart fa-2x"></i>
+                    </a>
+                </div>
+            </nav>
+        </div>
+
+        <div class="mt-4 mx-4">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#">Categories</a></li>
+                <li class="breadcrumb-item"><a href="#">Electronics </a></li>
+                <li class="breadcrumb-item active" aria-current="page">Samsung TV</li>
+            </ol>
+        </div>
+
+    </div>
+
+    <div class="overlay"></div>
+
+    <!-- jQuery CDN - Slim version (=without AJAX) -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <!-- Popper.JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"
+        integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous">
+    </script>
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"
+        integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous">
+    </script>
+    <!-- jQuery Custom Scroller CDN -->
+    <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js">
+    </script>
+    <!-- slick js -->
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <!-- xzoom -->
+    <script src="xzoom/xzoom.min.js"></script>
+
+    <!-- owl -->
+    <script src="owl/dist/owl.carousel.js"></script>
+
+    <script src="script/script.js"></script>
+</body>
+
+</html>
