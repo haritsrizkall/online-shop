@@ -16,6 +16,8 @@ body {
   font-family: "Poppins", sans-serif;
   background: #fafafa;
   padding-top: 70px;
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 .wrapper {
   z-index: 998;
